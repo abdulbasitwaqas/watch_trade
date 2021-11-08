@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="none">
+
+
+
+        <item
+            android:id="@+id/profile"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/memberShip"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="Membership" />
+
+        <item
+            android:id="@+id/chats"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="Chats" />
+
+        <item
+            android:id="@+id/my_forums"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="Open Forums" />
+
+        <item
+            android:id="@+id/my_posts"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="My Posts" />
+
+
+        <!--<item
+            android:id="@+id/privacy_policy"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="Privacy Policy" />-->
+
+        <item
+            android:id="@+id/terms_and_conditions"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="Terms &amp; Conditions" />
+        <item
+            android:id="@+id/sendToFriends"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:title="Send To Friends" />
+        <item
+            android:id="@+id/logout"
+            android:visible="true"
+            android:fontFamily="@font/poppins_medium"
+            android:title="Logout" />
+    </group>
+
+</menu>

@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UserProfileActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headerLayoutFDA"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/headerTVANW"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/profile"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/backBtnUPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollViewUPA"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerLayoutFDA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/bgCLUPA"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/blue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <ImageView
+                        android:id="@+id/addToContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_add_user"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/userImageCLSL"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/userImageCLSL"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="48dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="0.4"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/app_icon"
+                        app:civ_border_color="@color/grey"
+                        app:civ_border_width="1dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ImageView
+                        android:id="@+id/confirmIV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_confirm"
+                        app:layout_constraintBottom_toTopOf="@+id/userNameTVUPA"
+                        app:layout_constraintEnd_toEndOf="@+id/userImageCLSL"
+                        app:layout_constraintStart_toStartOf="@+id/userImageCLSL"
+                        app:layout_constraintTop_toTopOf="@+id/userImageCLSL"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/userNameTVUPA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="User name"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/userImageCLSL"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/userIDUPA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="UserID"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/userNameTVUPA"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bgCLUPA"
+                    android:layout_marginTop="-60dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bgCLUPA">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/ratingTV"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:text="0.0"
+                                android:fontFamily="@font/poppins_regular"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                app:layout_constraintBottom_toTopOf="@+id/ratingHeaderTV"
+                                app:layout_constraintEnd_toEndOf="@+id/ratingHeaderTV"
+                                app:layout_constraintStart_toStartOf="@+id/ratingHeaderTV"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="1.0" />
+
+
+                            <TextView
+                                android:id="@+id/ratingHeaderTV"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="32dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:text="@string/rating"
+                                android:fontFamily="@font/poppins_regular"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/btLine"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="1.0" />
+
+
+                            <View
+                                android:id="@+id/btLine"
+                                android:layout_width="0.8dp"
+                                android:layout_height="0dp"
+                                android:background="@color/normal_text_color"
+                                app:layout_constraintBottom_toBottomOf="@+id/ratingHeaderTV"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/ratingTV" />
+
+                            <ImageView
+                                android:id="@+id/blockIV"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:background="@drawable/ic_block_user"
+                                app:layout_constraintBottom_toBottomOf="@+id/ratingHeaderTV"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintStart_toEndOf="@+id/btLine"
+                                app:layout_constraintTop_toTopOf="@+id/ratingTV" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/st_rating"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/poppins_medium" />
+
+                            <Button
+                                android:id="@+id/rattingBtn"
+                                android:layout_width="100dp"
+                                android:layout_height="36dp"
+                                android:layout_marginLeft="16dp"
+                                android:background="@drawable/round_blue_btn"
+                                android:baselineAligned="false"
+                                android:gravity="center"
+                                android:padding="6dp"
+                                android:paddingLeft="16dp"
+                                android:text="@string/rating"
+                                android:fontFamily="@font/poppins_regular"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/st_stock"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/poppins_medium" />
+
+                            <Button
+                                android:id="@+id/stockBtn"
+                                android:layout_width="100dp"
+                                android:layout_height="36dp"
+                                android:layout_marginLeft="16dp"
+                                android:background="@drawable/round_blue_btn"
+                                android:baselineAligned="false"
+                                android:gravity="center"
+                                android:padding="6dp"
+                                android:paddingLeft="16dp"
+                                android:text="@string/stock"
+                                android:fontFamily="@font/poppins_regular"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/report_user"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/poppins_medium" />
+
+                            <Button
+                                android:id="@+id/reportUserBtn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="36dp"
+                                android:layout_marginLeft="16dp"
+                                android:background="@drawable/round_blue_btn"
+                                android:baselineAligned="false"
+                                android:gravity="center"
+                                android:padding="6dp"
+                                android:paddingLeft="16dp"
+                                android:text="@string/report"
+                                android:fontFamily="@font/poppins_regular"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/vatNumCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/st_vat"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/vatTVUPA"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:paddingRight="8dp"
+                                android:baselineAligned="false"
+                                android:gravity="center_vertical"
+                                android:padding="6dp"
+                                android:paddingLeft="16dp"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dobCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/st_dob"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/dobTVUPA"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:baselineAligned="false"
+                                android:gravity="center_vertical"
+                                android:padding="6dp"
+                                android:paddingLeft="16dp"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/phoneCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/phone"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/phoneTVUPA"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:baselineAligned="false"
+                                android:gravity="center_vertical"
+                                android:padding="6dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:paddingLeft="16dp"
+                                android:textAllCaps="false"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/locationCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/st_location"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/locationTVUPA"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:baselineAligned="false"
+                                android:gravity="center_vertical"
+                                android:padding="6dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:paddingLeft="16dp"
+                                android:textAllCaps="false"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/countryCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/st_country"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/countryTVUPA"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:baselineAligned="false"
+                                android:gravity="center_vertical"
+                                android:padding="6dp"
+                                android:paddingLeft="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textAllCaps="false"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/companyNameCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/st_company_name"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/companyNameTVUPA"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:baselineAligned="false"
+                                android:gravity="center_vertical"
+                                android:padding="6dp"
+                                android:paddingLeft="8dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textAllCaps="false"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/socialMediaLinksCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="40dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="16dp"
+                                android:text="@string/st_social_media"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/socialMediaTVUPA"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:baselineAligned="false"
+                                android:gravity="center_vertical"
+                                android:padding="6dp"
+                                android:paddingLeft="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textAllCaps="false"
+                                android:textColor="@color/normal_text_color"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/messageBtn"
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_alignBottom="@+id/bgCLUPA"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/round_msg"
+                    android:gravity="center"
+                    android:text="@string/message"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/editProfIV"
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_alignBottom="@+id/bgCLUPA"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/round_msg"
+                    android:gravity="center"
+                    android:text="@string/edit_prof"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

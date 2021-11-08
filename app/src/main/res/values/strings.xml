@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">World Trade Watch</string>
+
+    <!--LogIn Activity-->
+    <string name="enter_user_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="password_hint">******</string>
+    <string name="log_in">LogIn</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="apply_for_membership">Apply For Membership</string>
+    <string name="forget_password">Forgot Password</string>
+
+
+    <!--Menu Activity-->
+    <string name="forum">Forum</string>
+    <string name="chats">Chats</string>
+    <string name="search">Search</string>
+    <string name="search_et">Search....</string>
+    <string name="create_group">Create New Group</string>
+    <string name="contacts">Contacts</string>
+    <string name="currency_exchange">Currency Exchange</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Brand Detail Activity-->
+    <string name="company_details">Company Details*</string>
+    <string name="stocks">Stocks</string>
+    <string name="reviews">Reviews</string>
+    <string name="please_enter_email">Please enter email here</string>
+
+    <!-- OTP Varification Activity -->
+    <string name="verify_code_et">Enter received Verification Code</string>
+    <string name="resend_code">resend code</string>
+    <string name="_string_next">Next</string>
+    <string name="wait_for">Please wait…</string>
+    <string name="enter_otp">Please Enter an OTP</string>
+    <string name="new_code_email_instruction">New code sent to your email.</string>
+    <string name="otp_email_body_1">Your requested OTP verification code is</string>
+    <string name="otp_email_body_2">Please enter this code in order to verify your account. Don\'t share this with others.</string>
+    <string name="otp_email_title">OTP Verification Code</string>
+    <string name="_string_seconds">seconds</string>
+    <string name="save">Save</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="_string_new_password">New Password</string>
+    <string name="sell">Sell</string>
+    <string name="make">Brand:</string>
+    <string name="model">Model:</string>
+    <string name="st_model">Model</string>
+    <string name="st_location">Location :</string>
+    <string name="year">Year:</string>
+    <string name="year_st">Year</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address*</string>
+    <string name="user_name">Username*</string>
+    <string name="location">Location</string>
+    <string name="business_details">Business Name*</string>
+    <string name="social_media_links">Social Media Links</string>
+    <string name="box">Box</string>
+    <string name="papers">Papers</string>
+    <string name="paper">Paper:</string>
+    <string name="st_box">Box:</string>
+    <string name="string_message_wait">Please Wait...</string>
+    <string name="email_error">You are entering wrong email</string>
+
+    <string name="_string_edit_text_hint_user_email">User name</string>
+    <string name="_string_edit_text_hint_user_password">Password</string>
+    <string name="_string_error_enter_password">Enter password</string>
+    <string name="add_new_watch">Add new watch</string>
+    <string name="post_type">Post type</string>
+    <string name="buy_or_sell">Buy / Sell</string>
+    <string name="brand">Brand Name</string>
+    <string name="brand_name_here">Enter brand name</string>
+    <string name="case_size">Case size</string>
+    <string name="case_size_here">Enter case size</string>
+    <string name="price">Price</string>
+    <string name="sub_continent">Continent</string>
+    <string name="currency">Enter your currency</string>
+    <string name="curreny_st">Currency</string>
+    <string name="country">Country*</string>
+    <string name="yes_or_no">Yes / No</string>
+    <string name="update_watch">Update Watch</string>
+    <string name="update">Update</string>
+    <string name="rating">Rating</string>
+    <string name="submit">Submit</string>
+    <string name="review_message">Review Message</string>
+    <string name="star_rating">Kindly give your star rating.</string>
+    <string name="something_went_wrong">Something went wrong please try again later.</string>
+    <string name="type_message">Please Type message</string>
+    <string name="convert">Convert</string>
+    <string name="type">Type</string>
+    <string name="pleae_give_report">Write review here.</string>
+    <string name="copy_rights"><![CDATA[owned &amp; copyrighted by Artivea Inc]]></string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="profile">Profile</string>
+    <string name="message">Message</string>
+    <string name="st_rating">Rating :</string>
+    <string name="st_stock">Stock :</string>
+    <string name="stock">Stock</string>
+    <string name="report">Report</string>
+    <string name="report_user">Report User :</string>
+    <string name="st_country">Country :</string>
+    <string name="st_social_media">Social Media :</string>
+    <string name="setting">Settings</string>
+    <string name="enter_model_hint">Enter model here</string>
+    <string name="repost">Repost</string>
+    <string name="post">Post</string>
+    <string name="buy">Buy</string>
+    <string name="vat_num">Vat No.*</string>
+    <string name="phone">Phone</string>
+    <string name="register">Register</string>
+    <string name="create">Create</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="cancel">Cancel</string>
+    <string name="take_image">Take Image From</string>
+    <string name="ok">Ok</string>
+    <string name="st_liketo">Would you like to</string>
+    <string name="st_takepic">Take Picture</string>
+    <string name="st_case_size">Case Size:</string>
+    <string name="st_price">Price:</string>
+    <string name="block_alert">Block Alert!</string>
+    <string name="block_alert_msg">Are you sure you want to block this user from sending you messages?</string>
+    <string name="block">Block</string>
+    <string name="average_ratting">Average Rating</string>
+    <string name="ratting_breakdown">Ratting Breakdown</string>
+    <string name="all">All</string>
+    <string name="cannot_rate_yourself">Can not rate yourself.</string>
+    <string name="add">ADD</string>
+    <string name="terms_and_conditions_detail">1. Our website \n
+Use of this website provided by [World trade Watch Limited], ("Us") by your business, officers and employees, ("You") and any service contained within constitutes acceptance of these Terms &amp; Conditions.\n
+
+2. Customer Use\n
+
+2.1 You should always check the contact information you provide is correct before creating a customer account or proceeding to payment.\n
+
+2.2 Our website is only intended for use by adults, as defined as those aged 18 or over and who have sufficient capacity to enter into a binding agreement.\n
+
+3. Account Integrity\n
+
+3.1 As part of the registration process you will need to create an account, including a username &amp; password. It is your responsibility to ensure that the information you provide is accurate and not misleading. You cannot create an account or username &amp; password using the names and information of another person or using words that are the trademarks or the property of another party or vulgar, obscene or in any other way inappropriate.\n
+
+3.2 You are responsible for maintaining your own username and password via our website. You should ensure that you store your username and password securely and that the details required to access your customer account are not provided to another party.\n
+
+3.3 You are responsible for your customer account and any actions taken within it. If you are aware or suspect that your customer account username and password or other details have become known to a third party, you should inform us immediately.\n
+
+4. Product &amp; Service Pricing\n
+
+4.1 We make every effort to ensure that the pricing displayed on our website is correct. However, if an error in the pricing of a product or service is found we reserve the right to either cancel your order or contact you to arrange payment of any extra sum due or refund any over-payment made by you (as applicable).\n
+
+4.2 We reserve the right to alter all product and service pricing without notice.\n
+
+5. Your Order \n
+
+5.1 When you place an order you will automatically receive a confirmation email from us to confirm your order. Your order constitutes an offer made to us to purchase a product or service.\n
+
+5.2 Your offer is only accepted by us once we have emailed you to confirm the creation of your account and your username &amp; password details and the product or service has been provided to you.\n
+
+5.3 Product or service items not included within your account email are not included in the order and contract between you and us.\n
+
+5.4 We reserve the right to delay or refuse orders where a transaction contains incomplete details or details that cannot be verified or where fraud is suspected.\n
+
+5.5 If we are unable to reasonably ascertain these details or resolve these issues a full refund will be made against the card used at the time of purchase. No other form of refund or credit will be offered nor will a refund be made to any third party card or account.\n
+
+6. Subscription Period &amp; Free Trials\n
+
+6.1 After satisfactory payment of the subscription fees and supply by us of your username &amp; password you will have access to the website, and the products and services provided by the website for your subscription period.\n
+
+6.2 To avoid any disruption of service your subscription will automatically renew at the end of each subscription period.\n
+
+6.3 For annual subscriptions you will automatically receive an email notification before your subscription expires notifying you of your forthcoming renewal and providing details of how to cancel your renewal.\n
+
+6.4 Where we are unable to renew your subscription we will automatically suspend or downgrade your account and notify you via email and allow you to update your payment details or take out a new subscription. Please note in this instance you may lose any previous discount or special offer related to your previous subscription.\n
+
+6.5 Where you are offered a free-trial period you will receive an email notification no less than seven days before your free-period is due to end and convert into a paid subscription. Please note this does not apply where you are merely offered a discounted or offer-period paid-for subscription at a reduced rate that subsequently converts to a subscription at one of our full standard subscription rates.\n
+
+7. Cancellation Rights and Refunds\n
+
+7.1 As this is a business-to-business transaction no right of cancellation exists under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.\n
+
+7.2 Full or partial refunds will only be given where the product or service provided by us is found to be defective.\n
+
+7.3 Refunds will not be given where we are unable to replicate the issue or the issue stems from the user or their equipment.\n
+
+7.4 In the case of a defective service we reserve the right to offer an additional free period of service or issue a partial or full refund at our sole discretion.\n
+
+7.5 Where a refund is offered and accepted by you it will be made within seven working days of receiving your acceptance of a refund.\n
+
+8. Content Submission\n
+
+8.1 Where we allow content submission to the website by users the views expressed by any user on the website are their own and not those of [World trade Watch Limited].\n
+
+8.2 As a user you agree not to do any of the following:\n
+
+8.2.1 Abuse, harass, threaten, stalk, defame or in anyway seek to violate the rights of another user or third party.\n
+
+8.2.2 Publish or seek to distribute any material or information that is unlawful, harmful, obscene, indecent, libellous, profane, defamatory, racist, or in any other way inappropriate or objectionable.\n
+
+8.2.3 Use or harvest data provided by other users in a way that they would object to.\n
+
+8.2.4 Contact other users in ways they may find inappropriate.\n
+
+8.2.5 Encourage illegal activity or activity that violates the rights of other users or third parties, whether individuals or organisations.\n
+
+8.2.6 Supply or post content calculated to deliberately mislead other users or third parties, including content falsely made to appear from or be endorsed by us.\n
+
+8.2.7 To pose as another user, third party or organisation or one of our employees for the purposes of obtaining user or third party information.\n
+
+8.2.8 To transmit or transfer any viruses, trojans, worms or any other malicious programs or code intended to spy on, gain control over, disrupt, destroy or in any other way impair any computer hardware or software or any other equipment.\n
+
+8.2.9 Attempt to gain access to our servers or other equipment in order to disrupt, impair, overload or otherwise hinder or compromise the safety, security or privacy of any of the services provided by or relied upon by us and other users. \n
+
+8.2.10 Reframe, repurpose the website or any content on it or remove or obscure any notices or advertising provided by us on the website.\n
+
+8.2.11 Load or provide access to content on the website or link to other content from the website, which infringes the trademark, patent, trade secret or any other proprietary right of a third party or infringes any intellectual property law.\n
+
+8.2.12 Make commercial posts or comment spam or attempt to disguise such spam as content.\n
+
+8.2.13 Send junk or spam email or emails or posts promoting pyramid schemes, chain letters or any other activity that invites users and others to participate in wasting their time and/or money.\n
+
+8.2.14 Use any robot, spider, scraper or other technical means to access the website or content on the website.\n
+
+8.3 If you breach these Terms and Conditions by sending any unsolicited bulk email, (spam) or any other bulk communications to users your actions will cause harm to us and our website. Such harm is difficult to quantify and as such you agree to pay us the sum of £50 for each and every individual email or other communication sent to a user or third party.\n
+
+8.4 The above list is not intended to be exhaustive.\n
+
+9. Content Ownership\n
+
+9.1 As a user you retain all ownership rights to content provided by you.\n
+
+9.2 By submitting, posting or displaying your content on the website you agree to grant a non-exclusive royalty-free licence to us to use, modify, publicly perform, publicly display, reproduce and distribute such content on the website. This allows us to place your content on the website and let all users view your content. It also allows us to compress or alter the size of any files you may post onto the Site to ensure that they can be readily displayed for other users.\n
+
+9.3 As this is a non-exclusive licence you as a user are free to provide your content to other websites or other parties, without restriction.\n
+
+9.4 This licence is also royalty-free, which means that the content is provided free of charge to us and we will not pay for the content or account for any advertising revenue generated on the website or on any specific content pages.\n
+
+9.5 This licence is also sub-licensable, which means that our partners and affiliates can also use the content.\n
+
+9.6 This licence also applies worldwide because the website can be accessed from anywhere in the world, at any time.\n
+
+9.7 Also as part of the licence you warrant that any content provided by you does not belong to a third party whose rights have been violated by the content being posted on to the website. Furthermore if any content is owned by a third party you agree to pay all royalties owed to that party, without seeking any contribution from us.\n
+
+10. Content Monitoring \n
+
+Users can freely add content to the website. We do not monitor or assume any responsibility for content posted to the website. If at any time we decide to monitor the website on any occasion it does not assume responsibility for removing any content or the conduct of any users.\n
+
+11. Suspensions or Termination \n
+
+11.1 We reserve the right to remove (with or without notice) content and suspend or terminate (with or without notice) the account of any user who in our sole judgment is in breach of these Terms and Conditions.\n
+
+11.2 If a customer account is suspended the suspension the length of the suspension period and any reactivation will be at our sole discretion.\n
+
+12. Access \n
+
+We take all reasonable steps to ensure the website is available and functioning fully at all times. However, we do not accept any responsibility for "down-time" or poor performance of our fileservers or where the website or any associated service is unavailable for any reason, whether within or outside our direct control. \n
+
+13. Disclaimer \n
+
+13.1 We are not responsible for the accuracy of any content on the website nor any advertisements placed on the website. \n
+
+13.2 We are not responsible for any links to third party websites from our website and the inclusion of any link does not imply an endorsement of a third party website by us.\n
+
+14. Customer Complaints \n
+
+We endeavour to respond to all customer complaints or queries within five working days.\n
+
+15. Privacy \n
+
+We take your privacy seriously. We are registered under and comply with the General Data Protection Regulation (GDPR). For further details please see our Privacy Policy. \n
+
+16. Events outside our control \n
+
+We shall not be liable for delay or failure to perform any obligation under these Terms &amp; Conditions if the delay or failure is caused by any circumstances beyond our reasonable control, including, but not limited to, acts of god, war, civil disorder or industrial dispute.\n
+
+17. Licence \n
+
+17.1 We grant you a licence to access the content, information and services contained within our website for business use only. \n
+
+17.2 This licence allows you to download and cache (using your browser) individual pages from our website.\n
+
+17.3 This licence does not allow you to make our website available via an intranet, where our website or a substantial part of it is hosted locally on the intranet in question.\n
+
+17.4 Our website design, layout, content or text cannot be copied, edited or otherwise manipulated without our express prior written permission.\n
+
+17.5 Our website cannot be placed within the frame-set of another website.\n
+
+17.6 Third parties are not allowed to “deep link” to pages within our website, without our express prior written permission. All links (unless expressly permitted by us) should be to the main index page of our website. Furthermore, the content of such links, whether graphic or text should not be misleading, false, derogatory or in any other way offensive.\n
+
+17.7 The restriction on “deep linking” does not apply to affiliate partners who wish to send customers directly to a particular page or product in order to increase their affiliate sales.\n
+
+18 Copyright  \n
+
+18.1 All content, databases, graphics, buttons, icons, logos, layouts and look &amp; feel are the copyright of [World trade Watch Limited], unless expressly acknowledged as otherwise or provided by a user as part of content submission. \n
+
+18.2 The data mining, extraction or utilisation of product information from our website is not permitted without our express prior written permission.\n
+
+19. Reasonably Foreseeable Losses  \n
+
+19.1 We will be liable for any losses incurred by you due to breaches of these Terms &amp; Conditions by us, where such losses were reasonably foreseeable at the time the contract was made. \n
+
+19.2 All business, indirect or consequential losses not reasonably foreseeable at the time of the contract between you and us are excluded.\n
+
+19.3 We do not exclude or limit liability for death or personal injury caused by the negligence or breach of duty by employees, our officers or us.\n
+
+20. Severability \n
+
+The paragraphs, sub-paragraphs and clauses of this Agreement shall be read and construed independently of each other. Should any part of this Agreement or paragraphs, sub-paragraphs or clauses be found invalid it shall not affect the remaining paragraphs, sub-paragraphs and clauses. \n
+
+21. Waiver \n
+
+Failure by us to enforce any accrued rights under these Terms &amp; Conditions is not to be taken as or deemed to be a waiver of those rights unless we acknowledge the waiver in writing. \n
+
+22. Entire Terms &amp; Conditions \n
+
+These Terms &amp; Conditions set out the entire agreement and understanding between you and us. We reserve the right to change these Terms &amp; Conditions at any time, without giving notice.\n
+
+23. Jurisdiction \n
+
+These Terms &amp; Conditions shall be interpreted, construed and enforced in accordance with English law and shall be subject to the exclusive jurisdiction of the English Courts.\n
+
+Our Contact Details \n
+Our contact details are as follows:\n
+
+[World trade Watch Limited – 85 Great Portland Street, London, England, W1W 7LT]\n
+
+Email: [info@worldtrade.watch] \n
+
+Telephone\n
+
+From within the UK:        [+44 7984174469]  \n
+
+International:                 [+44 7720884057] \n
+
+Company registration number: 12744014 \n
+
+VAT registration number: \n\n\n\n</string>
+    <string name="terms_and_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="allow_all_permissions">Kindly Allow All Permissions.</string>
+    <string name="select_img">Please select image</string>
+    <string name="select_pic">Please select Picture</string>
+
+
+    <string name="fit_image">FIT IMAGE</string>
+    <string name="square">SQUARE</string>
+    <string name="free">FREE</string>
+    <string name="circle">CIRCLE</string>
+
+    <string name="permission_pick_rationale">READ_EXTERNAL_STORAGE permission is needed to pick image.</string>
+    <string name="permission_crop_rationale">WRITE_EXTERNAL_STORAGE permission is needed to save cropped image.</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="my_forums">My Forums</string>
+    <string name="open_forums">Open Forums</string>
+    <string name="unblock">Unblock</string>
+    <string name="pic">Picture</string>
+    <string name="close_msg">Are you sure, you want to close this App?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="st_vat">VAT Number</string>
+    <string name="st_dob">Date Of Birth</string>
+    <string name="edit_prof">Edit Profile</string>
+    <string name="private_message">Private Message</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="social_media">Social Media</string>
+    <string name="deactivate_account">Deactivate Account</string>
+    <string name="enter_user_name">Please enter user name</string>
+    <string name="vat_number_error">Please enter vat number</string>
+    <string name="enter_country_error">Kindly select your country</string>
+    <string name="company_name">Company Name*</string>
+    <string name="business_name">Business name*</string>
+    <string name="company_name_error">Please enter company name</string>
+    <string name="business_name_error">Please enter business name</string>
+    <string name="st_company_name">Company Name:</string>
+</resources>

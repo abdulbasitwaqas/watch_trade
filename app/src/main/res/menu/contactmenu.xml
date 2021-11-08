@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="none">
+
+
+        <item
+            android:id="@+id/chat"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="Chat" />
+
+        <item
+            android:id="@+id/profile"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="View Profile" />
+
+
+    </group>
+</menu>

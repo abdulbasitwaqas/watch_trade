@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "243243459488",
+    "project_id": "watch-trade-23eca",
+    "storage_bucket": "watch-trade-23eca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243243459488:android:bc3207a5103fab89c1fac5",
+        "android_client_info": {
+          "package_name": "com.watchtrading.watchtrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243243459488-ht9g6arq2tsgq5qpaeg593fp72sf08eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyP22WAMbk6CeE-5Y8BJYv_EfGgIBFTjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243243459488-ht9g6arq2tsgq5qpaeg593fp72sf08eu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

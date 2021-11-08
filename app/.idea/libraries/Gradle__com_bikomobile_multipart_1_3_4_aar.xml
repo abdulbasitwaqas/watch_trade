@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bikomobile:multipart:1.3.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/6.5/caches/transforms-2/files-2.1/cc9ce1c5ee669669c9d71f75453b70c2/jetified-multipart-1.3.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/6.5/caches/transforms-2/files-2.1/cc9ce1c5ee669669c9d71f75453b70c2/jetified-multipart-1.3.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/6.5/caches/transforms-2/files-2.1/cc9ce1c5ee669669c9d71f75453b70c2/jetified-multipart-1.3.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/6.5/caches/modules-2/files-2.1/com.bikomobile/multipart/1.3.4/9fb37d2872317e7a6432212fd66b3f6e82802828/multipart-1.3.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/6.5/caches/modules-2/files-2.1/com.bikomobile/multipart/1.3.4/743fe8f3b930ec7a1603484762c3fa9eb7e2cf75/multipart-1.3.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

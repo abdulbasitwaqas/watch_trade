@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: in.gauriinfotech:commons:1.0.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/6.5/caches/transforms-2/files-2.1/c2156ceaa16fae45a0d0b6e40216c7f4/jetified-commons-1.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/6.5/caches/transforms-2/files-2.1/c2156ceaa16fae45a0d0b6e40216c7f4/jetified-commons-1.0.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/6.5/caches/transforms-2/files-2.1/c2156ceaa16fae45a0d0b6e40216c7f4/jetified-commons-1.0.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/6.5/caches/modules-2/files-2.1/in.gauriinfotech/commons/1.0.8/6d4b17b227dc974e12ebfdbcecccff22a98a6c0b/commons-1.0.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/6.5/caches/modules-2/files-2.1/in.gauriinfotech/commons/1.0.8/ed19368c7517166d12a98e695fc560025b517007/commons-1.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

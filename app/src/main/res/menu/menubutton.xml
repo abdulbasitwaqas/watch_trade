@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="none">
+
+
+        <item
+            android:id="@+id/message"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="Message" />
+
+        <item
+            android:id="@+id/profile"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/report"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="Report" />
+        <item
+            android:id="@+id/blockUser"
+            android:visible="true"
+            android:fontFamily="@font/poppins_regular"
+            android:background="?selectableItemBackground"
+            android:title="Block User" />
+
+
+    </group>
+
+</menu>

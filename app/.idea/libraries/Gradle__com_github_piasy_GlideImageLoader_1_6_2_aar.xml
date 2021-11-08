@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.piasy:GlideImageLoader:1.6.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/6.5/caches/transforms-2/files-2.1/aa496657267bca356ec52e0a566bf91f/jetified-GlideImageLoader-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/6.5/caches/transforms-2/files-2.1/aa496657267bca356ec52e0a566bf91f/jetified-GlideImageLoader-1.6.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/6.5/caches/transforms-2/files-2.1/aa496657267bca356ec52e0a566bf91f/jetified-GlideImageLoader-1.6.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/6.5/caches/modules-2/files-2.1/com.github.piasy/GlideImageLoader/1.6.2/9449fa07300b89527c6f12383240d537fb73c1e4/GlideImageLoader-1.6.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/6.5/caches/modules-2/files-2.1/com.github.piasy/GlideImageLoader/1.6.2/4e8c0667ed12f11434001f1a46d72be4943db31a/GlideImageLoader-1.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
